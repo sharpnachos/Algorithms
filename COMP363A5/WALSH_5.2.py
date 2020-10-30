@@ -2,8 +2,11 @@
 #Thomas Walsh
 #This program will analyze data from a csv
 import csv
+
+#TODO: Add comments
+
 def readcsv():
-    with open("data.csv") as csvfile:
+    with open("COMP363A5/data.csv") as csvfile:
         data = csv.reader(csvfile, delimiter=",")
         x = 0
         healthy = []

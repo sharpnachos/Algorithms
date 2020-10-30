@@ -6,6 +6,10 @@
 #statement
 
 import random
+
+#TODO: Add comments
+#TODO: Remove the global variables
+
 tree = [['b','c'], #A
         ['d','e'], #B
         ['f','g'], #C
@@ -29,15 +33,14 @@ y = 0
 def main():
     setUpDFS()
     setUpBFS()
-    setUpIDDFS()
 
 def setUpDFS():
     global alpha
     global tree
     global nodesToVisit
     global path
-    nodesToVisit.clear()
-    path.clear()
+    #nodesToVisit.clear()
+    #path.clear()
     for index in range(0, len(tree)):
         nodesToVisit.append(alpha[index])
     currentNode = alpha[random.randint(0, (len(tree) - 1))]
@@ -76,8 +79,8 @@ def setUpBFS():
     global tree
     global nodesToVisit
     global path
-    nodesToVisit.clear()
-    path.clear()
+    #nodesToVisit.clear()
+    #path.clear()
     for index in range(0, (len(tree))):
         nodesToVisit.append(alpha[index])
     discovered = [alpha[random.randint(0, (len(tree) - 1))]]
@@ -110,43 +113,5 @@ def traversalBFS(discovered):
     else:
         print('BFS Path:')
         print(path)
-
-def setUpIDDFS():
-    global alpha
-    global tree
-    global nodesToVisit
-    global path
-    nodesToVisit.clear()
-    path.clear()
-    for index in range(0, (len(tree))):
-        nodesToVisit.append(alpha[index])
-    startNode = 'a'
-    nodesToVisit.remove(startNode)
-    path.append(startNode)
-    traversalIDDFS(startNode)
-
-def traversalIDDFS(startNode):
-    global alpha
-    global tree
-    global nodesToVisit
-    global path
-    global y
-    y += 1
-    i = y
-    if len(nodesToVisit) != 0:
-        discovered = []
-        discovered.append(startNode)
-        while i > 0:
-            print(i)
-            i -= 1
-            for node in discovered:
-                node = tree[alpha.index(node)]
-                for connection in node:
-                    if connection in nodesToVisit:
-                        nodesToVisit.remove(connection)
-                        discovered.append(connection)
-                        path.append(connection)
-    print("IDDFS Path:")
-    print(path)
 
 main()

@@ -1,4 +1,8 @@
 import random
+
+#TODO: Add comments
+#TODO: Remove the global variables
+
 alpha = 'abcdefghijklmnopqrstuvwxyz'
 nodesToVisit = []
 graph = [['b','c'], #A
@@ -17,7 +21,6 @@ def setUpBFS():
     global alpha
     global graph
     global nodesToVisit
-    nodesToVisit.clear()
     for index in range(0, (len(graph))):
         nodesToVisit.append(alpha[index])
     discovered = [alpha[random.randint(0, (len(graph) - 1))]]

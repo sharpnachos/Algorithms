@@ -1,8 +1,11 @@
-#actual code
+#this is actual code
 import random
 alpha = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 startNode = ""
 winningPath = []
+
+#TODO: Add comments
+#TODO: Thus begins the crutch of global variables
 
 def main():
     graph = [['b','c'], #A
@@ -18,7 +21,6 @@ def setUp(graph):
     global alpha
     global startNode
     global winningPath
-    winningPath.clear()
     startNode = random.randint(0, len(graph) - 1)
     startNode = alpha[startNode]
     toDelete = []
@@ -73,7 +75,10 @@ def traversal(currentNode, edgesRemaining):
                 if len(edgesRemaining) == 1 and edge[i2] == startNode:
                     winningPath.append(edge)
                     path = ""
-                    for edge in winningPath:
-                        path = path + edge + " -> "
+                    for edge in range(0,len(winningPath)):
+                        if edge < len(winningPath)-1:
+                            path = path + winningPath[edge] + " -> "
+                        else:
+                            path = path + winningPath[edge]
                     print("SOLVED! The winning path is edges: " + path)
 main()

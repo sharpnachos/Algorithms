@@ -1,4 +1,9 @@
 import random
+
+#TODO: Add comments
+#TODO: Remove the global variables
+#TODO: Doesn't work
+
 airports = ['ORD','JFK','ATL','MIA','IAH','LAX','SEA','DEN']
 citiesToVisit = []
 usaGraph = [['JFK','IAH'], #ORD
@@ -7,7 +12,7 @@ usaGraph = [['JFK','IAH'], #ORD
             ['ATL'], #MIA
             ['ATL','ORD','LAX'], #IAH
             ['SEA','DEN','IAH'], #LAX
-            ['IAH','SEA','DEN'], #SEA
+            ['IAH','DEN'], #SEA
             ['SEA','LAX','ATL']] #DEN
 x = 0
 targetCity = ''
@@ -21,7 +26,7 @@ def setUpBFS():
     global usaGraph
     global citiesToVisit
     global targetCity
-    citiesToVisit.clear()
+    #citiesToVisit.clear()
     discovered = ['ORD']
     targetCity = airports[random.randint(1,len(usaGraph) - 1)]
     for city in airports:
