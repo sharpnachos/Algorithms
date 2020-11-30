@@ -12,6 +12,9 @@ inTheKnapsack = []
 #Instead of removing the last item you could remove the heaviest item and instead
 #of requiring that it needs 2 items to replace the removed item you can just
 #replace it with 1 item.
+
+#TODO: This doesn't work
+
 def readcsv(name):
     global items
     #Gets the info from the csv

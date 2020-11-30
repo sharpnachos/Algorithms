@@ -1,6 +1,8 @@
 #Buildings need to be sorted from left to right for this to work, if they have the same start index then the one with the lower height is placed first
 buildings = [[1, 11, 5], [2, 6, 7], [3, 13, 9], [12, 7, 16], [14, 3, 25], [19, 18, 22], [23, 4, 28], [23, 13, 29]]
 
+#TODO: I think one of the numbers in the response is wrong
+
 def skyline():
     global buildings
     #set empty list for output

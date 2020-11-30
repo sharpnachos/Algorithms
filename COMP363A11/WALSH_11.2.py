@@ -2,6 +2,8 @@ steps = 1632 #Steps in Hancock
 bigStep = 2 #Biggest step we can take
 solution = []
 
+#TODO: Pretty sure this is horribly incorrect
+
 def countThemStepsBoi():
     global steps
     global bigStep

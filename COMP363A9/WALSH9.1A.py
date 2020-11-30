@@ -5,6 +5,8 @@ inTheKnapsack = []
 tempP = 0
 total = 0
 
+#TODO: This doesn't work
+
 def readcsv(name):
     global items
     #Gets the info from the csv

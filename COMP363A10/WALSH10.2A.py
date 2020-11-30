@@ -1,6 +1,8 @@
 import csv
 #Comments are going to be the same as 10.1A, I will comment about any difference
 
+#TODO: Doesn't work
+
 flights = [] 
 solution = [] 
 toVisit = [] 

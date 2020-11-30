@@ -3,6 +3,8 @@ import csv
 items = []
 inTheKnapsack = []
 
+#TODO: This doesn't work
+
 def readcsv(name):
     global items
     #Gets the info from the csv

@@ -1,5 +1,7 @@
 import csv
 
+#TODO: This doesn't work
+
 flights = [] #List of all flights with the start city, destination city, and distance
 solution = [] #Compiled list of all edges in the spanning tree
 toVisit = [] #Cities that have not been visited yet

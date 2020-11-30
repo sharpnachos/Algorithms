@@ -1,5 +1,7 @@
 import csv
 
+#TODO: Doesn't work
+
 flights = [] #List of all flight information
 solution = [] #List of edges of the spanning tree
 progress = [] #List of all clusters of connected nodes - starts with a list of one for each city and as connections are made the lists inside the list get bigger

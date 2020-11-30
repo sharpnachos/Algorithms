@@ -1,6 +1,8 @@
 import csv
 #Comments are the same as 10.1B, I will note any changes
 
+#TODO: Doesn't work
+
 flights = []
 solution = []
 progress = []

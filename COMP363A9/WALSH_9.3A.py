@@ -6,6 +6,8 @@ tempP = 0
 total = 0
 final = []
 
+#TODO: This does not work
+
 def readcsv(name):
     global items
     #Gets the info from the csv
