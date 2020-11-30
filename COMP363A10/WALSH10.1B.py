@@ -1,7 +1,5 @@
 import csv
 
-#TODO: Doesn't work
-
 flights = [] #List of all flight information
 solution = [] #List of edges of the spanning tree
 progress = [] #List of all clusters of connected nodes - starts with a list of one for each city and as connections are made the lists inside the list get bigger
@@ -14,7 +12,7 @@ def getData():
     global progress
     global maxi
     x = 0 #Method of skipping the first row
-    with open('Texas.txt') as tsv:
+    with open('COMP363A10/Texas.txt') as tsv:
         for flight in csv.reader(tsv, dialect = "excel-tab"):
             if x == 0: #Skips first row
                 x = 1

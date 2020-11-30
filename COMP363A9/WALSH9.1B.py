@@ -3,8 +3,6 @@ import csv
 items = []
 inTheKnapsack = []
 
-#TODO: This doesn't work
-
 def readcsv(name):
     global items
     #Gets the info from the csv
@@ -70,5 +68,5 @@ def pointValue():
         total = total + int(item[2])
     print(total)
     
-main("Assignment9.csv", 3200)
+main("COMP363A9/Assignment9.csv", 3200)
         

@@ -1,8 +1,6 @@
 import csv
 #Comments are the same as 10.1B, I will note any changes
 
-#TODO: Doesn't work
-
 flights = []
 solution = []
 progress = []
@@ -13,7 +11,7 @@ def getData():
     global flights
     global progress
     x = 0
-    with open('Texas.txt') as tsv:
+    with open('COMP363A10/Texas.txt') as tsv:
         for flight in csv.reader(tsv, dialect = "excel-tab"):
             if x == 0:
                 x = 1

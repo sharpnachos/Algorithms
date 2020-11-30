@@ -1,7 +1,5 @@
 import csv
 
-#TODO: This doesn't work
-
 flights = [] #List of all flights with the start city, destination city, and distance
 solution = [] #Compiled list of all edges in the spanning tree
 toVisit = [] #Cities that have not been visited yet
@@ -14,7 +12,7 @@ def getData():
     global toVisit
     global maxi
     x = 0 #Sets x equal to zero as a method of skipping the first row
-    with open('Texas.txt') as tsv: #Opens the file as a tab separated values file
+    with open('COMP363A10/Texas.txt') as tsv: #Opens the file as a tab separated values file
         for flight in csv.reader(tsv, dialect = "excel-tab"): #Separates the values using tab, had an error with "delimiter = '/t'" but i found this work around
             if x == 0: #Skips first row
                 x = 1

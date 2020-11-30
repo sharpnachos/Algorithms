@@ -6,8 +6,6 @@ tempP = 0
 total = 0
 final = []
 
-#TODO: This does not work
-
 def readcsv(name):
     global items
     #Gets the info from the csv
@@ -71,7 +69,7 @@ def knapsack(w):
                 total = total + (int(item[2]) * (tempP/100))
                 break
 
-def main(name, w):
+def main(name):
     global inTheKnapsack
     global tempP
     global total
@@ -93,5 +91,5 @@ def main(name, w):
     print("^^^Only " + str(tempP) + "% of this item")
     print("Total weight is equal to " + str(x + total))
     
-main("Assignment9.csv", 3200)
+main("COMP363A9/Assignment9.csv")
         

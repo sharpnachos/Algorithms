@@ -1,8 +1,6 @@
 import csv
 #Comments are going to be the same as 10.1A, I will comment about any difference
 
-#TODO: Doesn't work
-
 flights = [] 
 solution = [] 
 toVisit = [] 
@@ -14,7 +12,7 @@ def getData():
     global toVisit
     global maxi
     x = 0 
-    with open('Texas.txt') as tsv:
+    with open('COMP363A10/Texas.txt') as tsv:
         for flight in csv.reader(tsv, dialect = "excel-tab"):
             if x == 0:
                 x = 1

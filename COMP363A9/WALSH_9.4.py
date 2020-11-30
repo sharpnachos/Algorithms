@@ -13,8 +13,6 @@ inTheKnapsack = []
 #of requiring that it needs 2 items to replace the removed item you can just
 #replace it with 1 item.
 
-#TODO: This doesn't work
-
 def readcsv(name):
     global items
     #Gets the info from the csv
@@ -96,4 +94,4 @@ def lastitem(w):
                 inTheKnapsack.append(item)
                 w = w - int(item[2])
                 
-main("Assignment9.csv", 3200)
+main("COMP363A9/Assignment9.csv", 3200)

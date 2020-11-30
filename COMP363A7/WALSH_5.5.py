@@ -2,7 +2,6 @@ import random
 
 #TODO: Add comments
 #TODO: Remove the global variables
-#TODO: Doesn't work anymore
 
 airports = ['ORD','JFK','ATL','MIA','IAH','LAX','SEA','DEN']
 citiesToVisit = []
