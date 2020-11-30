@@ -1,9 +1,13 @@
 from random import randint
 import time
 
-#TODO: Add comments
+#Bubble Sort
+
+#Time Complexity Best Case: O(n) - Occurs when list is already sorted
+#Time Complexity Worst Case: O(n^2) - 
 
 def bubbleSort(nums):
+    # Iterate through the list
     for num in range(0,len(nums) - 1):
         if nums[num] > nums[num + 1]:
             temp = nums[num]
