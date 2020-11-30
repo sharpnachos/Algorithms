@@ -1,3 +1,6 @@
+#COMP 363 Assignment 9
+#Thomas Walsh
+
 import csv
 
 items = []

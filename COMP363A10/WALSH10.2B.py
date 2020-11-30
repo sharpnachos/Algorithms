@@ -1,3 +1,6 @@
+#COMP 363 Assignment 10
+#Thomas Walsh
+
 import csv
 #Comments are the same as 10.1B, I will note any changes
 

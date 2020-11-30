@@ -1,3 +1,6 @@
+#COMP 363 Assignment 10
+#Thomas Walsh
+
 import csv
 
 flights = [] #List of all flight information

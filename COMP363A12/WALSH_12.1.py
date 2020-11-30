@@ -1,3 +1,6 @@
+#COMP 363 Assignment 12
+#Thomas Walsh
+
 from math import inf
 
 RP = {'Howard_Western': {'A2': 60, 'B1': 10},

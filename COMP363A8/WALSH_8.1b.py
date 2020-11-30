@@ -1,3 +1,6 @@
+#COMP 363 Assignment 8
+#Thomas Walsh
+
 buildings = [[1, 11, 5], [2, 6, 7], [3, 13, 9], [12, 7, 16], [14, 3, 25], [19, 18, 22], [23, 4, 28], [23, 13, 29]]
 #This does not work 100%
 

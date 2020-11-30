@@ -1,3 +1,6 @@
+#COMP 363 Assignment 11
+#Thomas Walsh
+
 targetWord = ''
 givenWord = ''
 targetIndex = 0

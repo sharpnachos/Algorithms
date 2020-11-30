@@ -1,3 +1,6 @@
+#COMP 363 Assignment 11
+#Thomas Walsh
+
 steps = 1632 #Steps in Hancock
 bigStep = 2 #Biggest step we can take
 solution = []

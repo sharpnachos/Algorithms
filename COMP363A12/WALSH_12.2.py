@@ -1,3 +1,6 @@
+#COMP 363 Assignment 12
+#Thomas Walsh
+
 from heapq import heappush, heappop
 from math import inf
 

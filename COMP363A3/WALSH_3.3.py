@@ -1,7 +1,11 @@
+#COMP 363 Assignment 3
+#Thomas Walsh
+#Selection Sort
+
+#Time Complexity: O(n^2) - Always n^2
+
 import time
 from random import randint
-
-#TODO: Add comments
 
 def selectionSort(nums):
     for num in range(len(nums)):

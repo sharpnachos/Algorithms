@@ -1,3 +1,6 @@
+#COMP 363 Assignment 8
+#Thomas Walsh
+
 import random
 
 nums = [0, 7, 3, 12, 1, 32, 56, 23, 4]

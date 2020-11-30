@@ -1,10 +1,12 @@
-from random import randint
-import time
-
+#COMP 363 Assignment 3
+#Thomas Walsh
 # A Humble Implementation of Insertion Sort
 
 # Time Complexity Best Case: O(1) - occurs when list is already sorted
 # Time Complexity Average/Worst Case: O(n^2) - worst case occurs when list is in descending order
+
+from random import randint
+import time
 
 def insertionSort(nums):
     #loops through all numbers in the list

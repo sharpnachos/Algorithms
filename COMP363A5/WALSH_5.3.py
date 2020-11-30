@@ -1,6 +1,7 @@
 #COMP 363 Assignment 5: Counting
 #Thomas Walsh
 #This program will analyze data from a csv
+
 import csv
 
 #TODO: Add comments

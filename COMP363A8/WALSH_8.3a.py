@@ -1,3 +1,6 @@
+#COMP 363 Assignment 8
+#Thomas Walsh
+
 tree = {'a':['b','c'], 'b':['d','e'], 'c':['f','g'], 'd':['',''], 'e':['',''],'f':['',''], 'g':['h',''], 'g':['','']}
 
 def deleteNode(n):

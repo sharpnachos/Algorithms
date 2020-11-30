@@ -1,3 +1,6 @@
+#COMP 363 Assignment 7
+#Thomas Walsh
+
 import random
 
 #TODO: Add comments

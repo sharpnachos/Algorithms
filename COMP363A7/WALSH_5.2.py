@@ -1,3 +1,5 @@
+#COMP 363 Assignment 7
+#Thomas Walsh
 #Note: I wasn't sure if the start node had to be just 'A' or any node within the tree
 #so for DFS and BFS I pick a random start node and for IDDFS I just pick 'A'
 #Also, I was not sure if you wanted us to print out all the nodes we backtracked
